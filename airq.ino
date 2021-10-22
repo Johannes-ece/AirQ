@@ -14,8 +14,8 @@
 
 // Constants
 #define SEALEVELPRESSURE_HPA (1013.25)
-const char* ssid = "FRITZ!Box";
-const char* password = "8789032057293363";
+const char* ssid = "yourssid";
+const char* password = "yourwifipasswd";
 
 char *mqttServer = "192.168.178.61";
 int mqttPort = 1883;
