@@ -20,7 +20,7 @@ A esp32 based sensor suite sending multiple environmental data points to a mqtt 
 
   
 ## Demo with Grafana
-![alt text]https://github.com/Johannes-ece/AirQ/blob/main/docs/example/Screenshot%202021-10-22%20151513.png
+![alt text]https://github.com/Johannes-ece/AirQ/blob/main/docs/example/Screenshot%202021-10-22%20151513.png?raw=true
 
   
 ## License
