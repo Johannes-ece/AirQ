@@ -38,3 +38,5 @@ A esp32 based sensor suite sending multiple environmental data points to a mqtt 
  - [Multigeiger](https://github.com/ecocurious2/MultiGeiger)
 The project uses code snippets from the Multigeiger project, which is licensed GPLv3.
 this code therefore is also licensed under the terms of the GNU Public License, verison 3.
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
