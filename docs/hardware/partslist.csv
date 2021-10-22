@@ -1,0 +1,27 @@
+﻿pcb;;;;jlcpcb.com
+;;;;
+MH-Z19C;;co2 sensor;;ALIEXPRESS.com
+PMSA003;;fine particles sensor;;ALIEXPRESS.com
+BME680;;environmental sensor;;ALIEXPRESS.com
+;;;;
+;;;;
+Ro1;1;Geiger Tube;SI-22G   ;ebay.com
+;;;;
+Pz1;0;Piezo-Signalgeber 98 dB;1365793 - 62;conrad.de
+Pz1;1;Piezo-Signalgeber 98 dB;SUMMER EPM 121;www.reichelt.de
+L1;1;Stehende-Induktivität, 11P, Ferrit, 150M;L-11P 150M;www.reichelt.de
+;;;;
+T1;1;N-MOS-Transistor BSP125;;
+D1, D2;2;Zenerdiode, 200 V, 2 W, DO-41;ZY 200;www.reichelt.de
+D3;1;Zenerdiode, 3,3 V, 0,5 W, DO-35;BZX 55C3V3 VIS;www.reichelt.de
+D4;1;BYV 26E;BYV 26E;www.reichelt.de
+D6;1;GP10Y;567595  (Conrad-Nr.); www.conrad.de
+;;;;
+R1;1;1/4W 10K Widerstand, Kohleschicht, 10 kOhm, 0207, 250 mW, 5%;1/4W 10K;www.reichelt.de
+R2, R5;2;1/4W 1,0M Widerstand, Kohleschicht, 1,0 MOhm, 0207, 250 mW, 5%;1/4W 1,0M;www.reichelt.de
+R3, R4;2;1/4W 4,7M Widerstand, Kohleschicht, 4,7 MOhm, 0207, 250 mW, 5%;1/4W 4,7M;www.reichelt.de
+;;;;
+C1;1;Elko radial, 100 uF, 16 V, 105°C, low ESR;RAD FR 100/16;www.reichelt.de
+C2;1;Folienkondensator, 10nF, 100V, RM5;MKP2-100 10N;www.reichelt.de
+C3;1;Folienkondensator, 100nF, 630V, RM15;MKP4-630 100N;www.reichelt.de
+C4;1;Folienkondensator, 100pF, 1000V, RM5;FKP2-1000 100P;www.reichelt.de
