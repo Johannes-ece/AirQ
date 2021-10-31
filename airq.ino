@@ -14,11 +14,11 @@
 
 // Constants
 #define SEALEVELPRESSURE_HPA (1013.25)
-const char* ssid = "yourssid";
-const char* password = "yourwifipasswd";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_passwd";
 
-char *mqttServer = "192.168.178.61";
-int mqttPort = 1883;
+char *mqttServer = "MQTT_SERVER_ADRESS";
+int mqttPort = MQTT_SERVER_PORT;
 const char* mqttDeviceId = "airq";
 
 const int rx_pin = 19; //Serial rx pin
@@ -41,13 +41,6 @@ WiFiClient wifiClient;
 PubSubClient client(wifiClient); 
 
 
-
-
-// Parameters
-bool debug                  = true; // false: no debug output will be printed
-                                    // true : debug output will be printed
-bool speaker_tick           = false;// false: no GMZ-Tick, no flickering LED
-                                    // true : GMZ-Tick will be sounded, LED flickers every GMZ-Tick
 
 
                   
@@ -184,7 +177,8 @@ void loop() {
   // read out values from ISR
   noInterrupts();                                                  // disable Interrupts to be able to read the variables of the ISR correctly
   GMZ_counts           = isr_GMZ_counts     ;                    // copy values from ISR
-  count_timestamp      = isr_count_timestamp;                    
+  count_timestamp      = isr_count_timestamp;    
+  reconnect();                
   interrupts();                                                    // re-enable Interrupts  
   
   // Check if there are enough pules detected or if enough time has elapsed. If yes than its 
